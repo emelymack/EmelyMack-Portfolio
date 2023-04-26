@@ -1,0 +1,42 @@
+:root{
+  --primary: #C45BAA;
+  --secondary: #08B2E3;
+  --highlight: #FF8811;
+  --shadow: #763D6D;
+  --font-color: #271F30;
+  --light: #DBDFAC;
+}
+
+*{
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg{
+  &-light{
+    background-color: var(--light) !important;
+  }
+}
+
+.btn{
+  &-secondary{
+    border: 3px solid var(--secondary) !important;
+    border-radius: 12px !important;
+    color: var(--secondary) !important;
+    background-color: transparent !important;
+    font-weight: 500 !important;
+
+    &:hover{
+      color: #fff !important;
+      background-color: var(--secondary) !important;
+      font-weight: 600 !important;
+    }
+  }
+}
