@@ -1,0 +1,13 @@
+.footer{
+  background: linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 39%, hsla(260, 95%, 47%, 1) 66%, hsla(234, 100%, 35%, 1) 100%); 
+  background: -moz-linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 39%, hsla(260, 95%, 47%, 1) 66%, hsla(234, 100%, 35%, 1) 100%);
+  background: -webkit-linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 39%, hsla(260, 95%, 47%, 1) 66%, hsla(234, 100%, 35%, 1) 100%);
+}
+
+.icon{
+  width: 40px;
+  transition: all .15s ease-in-out;
+  &:hover{
+    scale: 1.5
+  }
+}

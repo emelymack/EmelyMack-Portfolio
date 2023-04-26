@@ -1,10 +1,10 @@
 :root{
-  --primary: #C45BAA;
-  --secondary: #08B2E3;
-  --highlight: #FF8811;
+  --primary: #6e07f3;
+  --secondary: #004643;
+  --highlight: #d1ac00;
   --shadow: #763D6D;
-  --font-color: #271F30;
-  --light: #DBDFAC;
+  --font-color: #001011;
+  --light: #faf4d3;
 }
 
 *{
@@ -17,6 +17,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(248,249,250) !important;
+  color: var(--secondary) !important;
 }
 
 .bg{
@@ -26,16 +28,17 @@ body {
 }
 
 .btn{
-  &-secondary{
-    border: 3px solid var(--secondary) !important;
+  &-outline{
+    border: 3px solid var(--primary) !important;
     border-radius: 12px !important;
-    color: var(--secondary) !important;
+    color: var(--primary) !important;
     background-color: transparent !important;
     font-weight: 500 !important;
 
     &:hover{
       color: #fff !important;
-      background-color: var(--secondary) !important;
+      background-color: var(--highlight) !important;
+      border-color: var(--highlight) !important;
       font-weight: 600 !important;
     }
   }
