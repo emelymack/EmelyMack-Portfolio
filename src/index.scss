@@ -3,10 +3,8 @@
   --secondary: #004643;
   --highlight: #d1ac00;
   --shadow: #763D6D;
-  --font-color: #001011;
+  --font-color: #212529;
   --light: #faf4d3;
-  --a: #5201bb;
-  --a: 
 }
 
 *{
@@ -20,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(248,249,250) !important;
-  color: var(--secondary) !important;
+  color: #333 !important;
 }
 
 ::-webkit-scrollbar {
@@ -74,6 +72,10 @@ body {
   border: none !important;
   box-shadow: 4px 10px 10px hsla(0, 0%, 0%, 0.161);
   transform: scale(1.001)
+}
+
+a:hover{
+  color: var(--highlight) !important;
 }
 
 @media(max-width: 991px){

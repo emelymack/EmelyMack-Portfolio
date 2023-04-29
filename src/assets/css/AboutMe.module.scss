@@ -39,6 +39,20 @@
   color: #fff;
   font-weight: 700;
   font-size: 18px;
+  img {
+    transition: transform .75s ease;
+  }
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px) scale(1.1);
+    }
+  }
+  img:hover {
+    animation: bounce .5s;
+  }
 }
 
 .strengths {

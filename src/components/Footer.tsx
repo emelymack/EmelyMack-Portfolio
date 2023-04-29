@@ -9,7 +9,7 @@ export const Footer = () => (
   <div className={style.footer}>
     <div className="container d-flex flex-column align-items-center py-5 text-white">
       <Link to={'/'}><img src={logo} width={220} alt="Emely Mack - Front End Developer" /></Link>
-      <span className='agradecimiento small mt-4'>Neque porro quisquam est qui dolorem ipsum<br/> quia dolor sit amet, consectetur, adipisci velit...</span>
+      <span className='agradecimiento mt-4 fst-italic'>Bringing your vision to life, one pixel at a time</span>
       <div className="w-25 d-flex align-items-center justify-content-between mt-5">
         <a href='https://www.github.com/emelymack' target='_blank'><img src={github} className={style.icon} /></a>
         <a href='mailto:emelymackdev@gmail.com'><img src={mail} className={style.icon} /></a>

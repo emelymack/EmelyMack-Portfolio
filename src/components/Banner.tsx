@@ -5,7 +5,7 @@ import style from '../assets/css/Banner.module.scss'
 export const Banner = () => {
   return (
     <div className={style.banner}>
-      <div className='container d-flex align-items-center py-5'>
+      <div className='container d-flex align-items-center justify-content-start py-5'>
         <div className="row row-cols-1 row-cols-md-2">
           <div className="col">
             <img src={devImg} alt="" className='w-100' />
@@ -13,7 +13,10 @@ export const Banner = () => {
           <div className="col d-flex flex-column justify-content-center">
             <h1 className={`me-3 ${style.title} display-5`}>Hi!<br/> I'm Emely Mack</h1>
             <img src={devIcon} alt={'Imagen de programadora'} width={50} />
-            <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo maximus scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+            <p className='mt-4 fst-italic  ' style={{fontSize: '18px'}}>
+              A passionate Front-End Web Developer focused on building beautiful, useful, and responsive websites that catch the eye and enhance user experiences.
+            </p>
+            <a href="" className='btn btn-outline fw-bold px-4'>Contact me</a>
           </div>
         </div>
       </div>
