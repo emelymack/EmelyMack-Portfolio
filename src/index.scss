@@ -5,6 +5,8 @@
   --shadow: #763D6D;
   --font-color: #001011;
   --light: #faf4d3;
+  --a: #5201bb;
+  --a: 
 }
 
 *{
@@ -19,6 +21,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(248,249,250) !important;
   color: var(--secondary) !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Set width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--highlight);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--secondary); /* Set color of the track */
+}
+
+.primary{
+  color: var(--primary);
+}
+.secondary{
+  color: var(--secondary);
+}
+.highlight{
+  color: var(--highlight);
 }
 
 .bg{
@@ -42,4 +67,11 @@ body {
       font-weight: 600 !important;
     }
   }
+}
+
+.nav-tabs .nav-link.active{
+  font-weight: 700 !important;
+  border: none !important;
+  box-shadow: 4px 10px 10px #00000029;
+  transform: scale(1.001)
 }

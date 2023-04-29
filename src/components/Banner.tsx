@@ -11,7 +11,7 @@ export const Banner = () => {
             <img src={devImg} alt="" className='w-100' />
           </div>
           <div className="col d-flex flex-column justify-content-center">
-            <h1 className={`me-3 ${style.title}`}>Hi!<br/> I'm Emely Mack</h1>
+            <h1 className={`me-3 ${style.title} display-5`}>Hi!<br/> I'm Emely Mack</h1>
             <img src={devIcon} alt={'Imagen de programadora'} width={50} />
             <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo maximus scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
           </div>

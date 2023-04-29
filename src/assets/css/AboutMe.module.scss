@@ -1,0 +1,47 @@
+.tab {
+  height: 75px !important;
+  width: 300px;
+  border-radius: 40px 40px 0 0 !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+.bg{
+  &1{
+    // background: var(--highlight) !important;
+    background: var(--primary) !important;
+  }
+  &2{
+    // background: #8F3EA2 !important;
+    background: var(--primary) !important;
+  }
+  &3{
+    // background: var(--primary) !important;
+    background: var(--primary) !important
+  }
+}
+
+.tabContent{
+  border-radius: 0 0 15px 15px;
+  color: #fff;
+}
+
+.skillsCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.strengths {
+  font-size: 18px;
+  li{
+    list-style-type: '✨';
+    padding-left: 10px;
+    line-height: 40px;
+  }
+}
