@@ -1,23 +1,47 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b5f5a4b.css",
-    "main.js": "/static/js/main.c60594d7.js",
+    "main.css": "/static/css/main.1f80b804.css",
+    "main.js": "/static/js/main.3c0eba7d.js",
+    "static/media/proyecto-AFamily.png": "/static/media/proyecto-AFamily.9ebc17b9a5f9919f31e6.png",
+    "static/media/proyecto-aipsa.png": "/static/media/proyecto-aipsa.0f546b71277f3e995e66.png",
+    "static/media/proyecto-wolco.png": "/static/media/proyecto-wolco.8cc5b6267579e40f1c0b.png",
     "static/media/MackEmely-FrontEndDeveloper.pdf": "/static/media/MackEmely-FrontEndDeveloper.12b3eb21be02e824ce94.pdf",
+    "static/media/proyecto-rickYMorty.png": "/static/media/proyecto-rickYMorty.6205cb13841f44f4f510.png",
+    "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/proyecto-conecta.png": "/static/media/proyecto-conecta.876f8293f3488b14f2f3.png",
+    "static/media/proyecto-centroPokemon.png": "/static/media/proyecto-centroPokemon.80dcfd8a8ba4f874a551.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.430491e6a02f91bf55d6.png",
+    "static/media/adobexd.png": "/static/media/adobexd.a76712985929dc7040e3.png",
+    "static/media/sass.png": "/static/media/sass.7cdbf6b5889c42b3e490.png",
+    "static/media/html.png": "/static/media/html.c4d9c8dcdf4078875355.png",
+    "static/media/mysql.png": "/static/media/mysql.0fa268260d693783ed38.png",
+    "static/media/css.png": "/static/media/css.4e67641bb68b658d9b2b.png",
     "static/media/argentina-flag.png": "/static/media/argentina-flag.51b1d2e292a36051ef80.png",
+    "static/media/nodejs.png": "/static/media/nodejs.c6649cb118c1ede849ad.png",
     "static/media/logo.png": "/static/media/logo.62f782e4b8f1324e942a.png",
     "static/media/img-webdev.svg": "/static/media/img-webdev.2de4b0f2486dff73c1d4c1b315848b50.svg",
+    "static/media/meditation.svg": "/static/media/meditation.4f0d102c437520be31512700a38ef44e.svg",
+    "static/media/figma.png": "/static/media/figma.46400ab8543f71a3650b.png",
     "static/media/logo-white.png": "/static/media/logo-white.bc12a6105612efaabc42.png",
+    "static/media/agile.png": "/static/media/agile.71c4e1dda0d44bdff20d.png",
     "static/media/developer.svg": "/static/media/developer.c90758356fde3e50faf3e9b7986dffe7.svg",
+    "static/media/redux.png": "/static/media/redux.543b98d3c75b48613322.png",
+    "static/media/cat-friends.svg": "/static/media/cat-friends.d830f3dfd2c5e26d0dae226de3d16bd5.svg",
+    "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
+    "static/media/java.png": "/static/media/java.6c64373d3b7415758078.png",
+    "static/media/music.svg": "/static/media/music.19aaa11cf201c466029bddd96b1efa77.svg",
     "static/media/bg-banner.svg": "/static/media/bg-banner.9878fdbb0d963009b072.svg",
+    "static/media/postman.webp": "/static/media/postman.7066eb08ea17b7fe2069.webp",
     "static/media/github-white.svg": "/static/media/github-white.83088414a9dd3cdab02254bc485fe683.svg",
+    "static/media/typescript.svg": "/static/media/typescript.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
     "index.html": "/index.html",
     "static/media/linkedin-white.svg": "/static/media/linkedin-white.48acb59cfcd4320f5a12e04c31ad725c.svg",
     "static/media/mail.svg": "/static/media/mail.c8fcc48ae348257493e0b5c5a564210a.svg",
-    "main.8b5f5a4b.css.map": "/static/css/main.8b5f5a4b.css.map",
-    "main.c60594d7.js.map": "/static/js/main.c60594d7.js.map"
+    "main.1f80b804.css.map": "/static/css/main.1f80b804.css.map",
+    "main.3c0eba7d.js.map": "/static/js/main.3c0eba7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b5f5a4b.css",
-    "static/js/main.c60594d7.js"
+    "static/css/main.1f80b804.css",
+    "static/js/main.3c0eba7d.js"
   ]
 }
