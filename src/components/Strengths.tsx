@@ -1,7 +1,7 @@
 import style from '../assets/css/AboutMe.module.scss'
 
 export const Strengths = () => (
-  <div className="container p-5">
+  <div className="container p-4 p-lg-5">
     <ul className={style.strengths}>
       <li>Advanced English (C2), both spoken and written</li>
       <li>Basic Italian (B1)</li>

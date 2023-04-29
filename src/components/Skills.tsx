@@ -17,8 +17,8 @@ import adobexdLogo from '../assets/img/adobexd.png'
 import agileLogo from '../assets/img/agile.png'
 
 export const Skills = () => (
-  <div className="container p-5">
-    <div className="row row-cols-4 gx-0 gy-4">
+  <div className="container px-3 py-4 p-lg-5">
+    <div className="row row-cols-3 row-cols-lg-4 justify-content-center gx-0 gy-4">
       <div className={`col ${style.skillsCol}`}>
         <img src={htmlLogo} alt="HTML" width={125} className='mb-2' />
         HTML

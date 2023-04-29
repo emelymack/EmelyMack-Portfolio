@@ -9,9 +9,9 @@ export const AboutMe = () => (
   <div id='aboutMe' className="container py-5">
     <h1 className="highlight fw-bold text-center">ABOUT ME</h1>
     <Tabs
-      defaultActiveKey="hobbies"
+      defaultActiveKey="skills"
       id="about-me-tabs"
-      className={`mt-5 justify-content-between`}
+      className={`mt-5 justify-content-between flex-column flex-lg-row`}
     >
       <Tab eventKey="skills" title="Skills" className={`${style.bg1} ${style.tabContent}`} tabClassName={`${style.tab} ${style.bg1}`}>
         <Skills />

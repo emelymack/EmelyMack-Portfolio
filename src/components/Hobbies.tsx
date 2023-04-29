@@ -2,34 +2,20 @@ import style from '../assets/css/AboutMe.module.scss'
 import meditation from '../assets/img/meditation.svg'
 import cat from '../assets/img/cat-friends.svg'
 import music from '../assets/img/music.svg'
+import { YoutubeEmbed } from './YoutubeEmbed'
 
 export const Hobbies = () => (
-  <div className="container p-5">
-    <p>In my free time I like to take time to myself, my friends and family, and especially to clear up my head doing my favourite hobbies:</p>
-    <div className="row row-cols-2">
-      <div className="col d-flex align-items-center justify-content-center">
-        Meditating
+  <div className={`${style.hobbiesContainer} container px-4 py-5 p-lg-5`}>
+    <img className={`${style.bgImg} ${style.bgImg1}`} src={meditation} alt="Meditate" />
+    <img className={`${style.bgImg} ${style.bgImg2}`} src={cat} alt="Spending time with my cats" />
+    <img className={`${style.bgImg} ${style.bgImg3}`} src={music} alt="Singing and dancing" />
+    <div className='d-flex flex-column align-items-center mt-5 mb-4'>
+      <div style={{zIndex: 5}}>
+        <YoutubeEmbed embedId='1kp8xcaKvsA' classes='mb-2' />
+        <span className='small'>You're more than welcome to take a look at my Youtube video singing Love on the Brain by Rihanna💜<br/>
+        Hope you like it!</span>
       </div>
-      <div className="col">
-        <img src={meditation} alt="" width={'50%'} />
-      </div>
-    </div>
-    <div className="row row-cols-2">
-      <div className="col d-flex align-items-center justify-content-center">
-        <img src={cat} alt="" width={'50%'} />
-      </div>
-      <div className="col d-flex align-items-center justify-content-start ps-5">
-        Quality time with my cat
-      </div>
-    </div>
-    <div className="row row-cols-2">
-      <div className="col d-flex align-items-center justify-content-center">
-        And especially...<br/>
-        singing
-      </div>
-      <div className="col">
-        <img src={music} alt="" width={'50%'} />
-      </div>
+      
     </div>
   </div>
 )
