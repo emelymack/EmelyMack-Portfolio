@@ -11,3 +11,16 @@
     scale: 1.5
   }
 }
+
+.rrss{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+@media(max-width: 767px){
+  .rrss{
+    width: 75%;
+  }
+}

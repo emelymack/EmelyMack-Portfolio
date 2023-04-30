@@ -3,7 +3,7 @@
   border-radius: 20px !important;
   border: none !important;
   width: 100%;
-  height: 365px;
+  height: 365px !important;
 
   img{
     border-radius: 20px 20px 0 0;
@@ -34,4 +34,13 @@
     }
   }
 
+}
+
+@media(max-width: 767px){
+  .projectCard{
+    height: auto !important;
+    .cardBody{
+      justify-content: start;
+    }
+  }
 }

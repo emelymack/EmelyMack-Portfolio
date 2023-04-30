@@ -14,20 +14,22 @@ import style from '../assets/css/Header.module.scss'
 export const Header = () => {
   return (
     <Navbar bg="light" expand="lg" className={style.navbar}>
-      <Container>
-        <Navbar.Brand href="#">
-          <img src={logo} alt="Emely Mack - Front End Developer" width={'60%'} />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Container className=''>
+        <div className='d-flex align-items-center'>
+          <Navbar.Brand href="#">
+            <img src={logo} alt="Emely Mack - Front End Developer" className={style.logo} />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </div>
         <Navbar.Collapse id="basic-navbar-nav" className=' justify-content-end'>
-          <Nav className="d-flex align-items-center justify-content-between" style={{width: '85%'}} >
+          <Nav className={`d-flex align-items-center justify-content-between ${style.nav}`}>
             <Nav.Link className={style.navLink} href="#aboutMe">About me</Nav.Link>
             <Nav.Link className={style.navLink} href="#projects">Projects</Nav.Link>
             <Nav.Link className={style.navLink} href="#contact">Contact</Nav.Link>
             <Nav.Link className={style.navLink} href={cv} download="MackEmely-FrontEndDeveloper.pdf"><Button variant="outline-secondary" className='btn-outline px-3'>
               <FontAwesomeIcon icon={faDownload} className='me-1' /> Download CV</Button>
             </Nav.Link>
-            <Link to={'spanish'}><img src={argentinaFlag} width={60} alt="Change language to Spanish" className={style.languageBtn} /></Link>
+            <Link to={'spanish'} className='py-2'><img src={argentinaFlag} width={60} alt="Change language to Spanish" className={style.languageBtn} /></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

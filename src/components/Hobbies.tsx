@@ -12,7 +12,7 @@ export const Hobbies = () => (
     <div className='d-flex flex-column align-items-center mt-5 mb-4'>
       <div style={{zIndex: 5}}>
         <YoutubeEmbed embedId='1kp8xcaKvsA' classes='mb-2' />
-        <span className='small secondary'>You're more than welcome to take a look at my Youtube video singing Love on the Brain by Rihanna💜<br/>
+        <span className='small'>You're more than welcome to take a look at my Youtube video singing Love on the Brain by Rihanna💜<br/>
         Hope you like it!</span>
       </div>
       
