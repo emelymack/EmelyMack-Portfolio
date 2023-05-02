@@ -15,14 +15,12 @@ export const Header = () => {
   return (
     <Navbar bg="light" expand="lg" className={style.navbar}>
       <Container className=''>
-        <div className='d-flex align-items-center'>
-          <Navbar.Brand href="#">
-            <img src={logo} alt="Emely Mack - Front End Developer" className={style.logo} />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        </div>
-        <Navbar.Collapse id="basic-navbar-nav" className=' justify-content-end'>
-          <Nav className={`d-flex align-items-center justify-content-between ${style.nav}`}>
+        <Navbar.Brand href="#" className={style.navbarBrand}>
+          <img src={logo} alt="Emely Mack - Front End Developer" className={style.logo} />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className=' justify-content-end w-100'>
+          <Nav className={`d-flex align-items-center justify-content-between  ${style.nav}`}>
             <Nav.Link className={style.navLink} href="#aboutMe">About me</Nav.Link>
             <Nav.Link className={style.navLink} href="#projects">Projects</Nav.Link>
             <Nav.Link className={style.navLink} href="#contact">Contact</Nav.Link>

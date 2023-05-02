@@ -7,7 +7,7 @@ import rickYMorty from '../assets/img/proyecto-rickYMorty.png'
 import centroPokemon from '../assets/img/proyecto-centroPokemon.png'
 
 export const Projects = () => (
-  <div id="projects" className="container py-5">
+  <div id="projects" className="container pt-5">
     <div className="text-center">
       <h1 className="highlight fw-bold text-center mb-3">Projects</h1>
       <span className="secondary" style={{fontSize: '18px'}}>Some of the work I've done</span>

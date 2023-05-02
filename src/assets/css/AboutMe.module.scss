@@ -23,12 +23,12 @@
 }
 
 .tabContent{
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 20px 20px;
   color: #fff;
   background: hsla(266, 94%, 49%, 1) !important;
-  background: linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 50%, hsla(265, 100%, 93%, 1) 100%) !important;
-  background: -moz-linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 50%, hsla(265, 100%, 93%, 1) 100%) !important;
-  background: -webkit-linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 50%, hsla(265, 100%, 93%, 1) 100%) !important;
+  background: linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 40%, rgb(218, 192, 255) 100%) !important;
+  background: -moz-linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 40%, rgb(218, 192, 255) 100%) !important;
+  background: -webkit-linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 40%, rgb(218, 192, 255) 100%) !important;
 }
 
 .skillsCol {

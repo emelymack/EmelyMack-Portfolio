@@ -1,8 +1,19 @@
 .banner{
   background-image: linear-gradient(to right,rgba(245,245,245,.7),rgba(245,245,245,.7)), url(../img/bg-banner.svg);
+
+  .bannerImg{
+    width: 100%;
+  }
+  .title {
+    color: var(--primary);
+    font-weight: 600 !important;
+  }
 }
 
-.title {
-  color: var(--primary);
-  font-weight: 600 !important;
+@media(min-width: 576px) and (max-width: 991px){
+  .bannerImg{
+    width: 70% !important;
+  }
 }
+
+
