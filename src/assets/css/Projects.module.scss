@@ -20,6 +20,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+
+    .linkIcon{
+      position: absolute;
+      width: 50px;
+      top: 20px;
+      right: 15px;
+    }
   }
   &:hover {
     animation: bounce .5s;
