@@ -9,7 +9,7 @@ export const Banner = () => {
   const greeting = (language === 'eng') ? 'Hi' : 'Hola'
   const name = (language === 'eng') ? "I'm Emely Mack" : 'Me llamo Emely Mack'
   const btnTxt = (language === 'eng') ? "Contact me" : 'Contactame'
-  const subtitle = (language === 'eng') ? "A passionate Front-End Web Developer focused on building beautiful, useful, and responsive websites that catch the eye and enhance user experiences" : 'Una Desarrolladora Web Front-End apasionada y enfocada en construir sitios web hermosos, funcionales y responsive que atrapen tu mirada y mejoren tu user experience'
+  const subtitle = (language === 'eng') ? "A passionate Front-End Web Developer focused on building beautiful, useful, and responsive websites that catch the eye and enhance user experiences" : 'Soy una Desarrolladora Web Front-End apasionada y enfocada en construir sitios web hermosos, funcionales y responsive que atrapen tu mirada y mejoren tu user experience'
 
   return (
     <div className={style.banner}>
