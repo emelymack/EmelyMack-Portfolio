@@ -10,9 +10,8 @@
   }
 
   .cardTitle{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
-    color: var(--highlight);
   }
   .cardBody{
     padding: 2em;
@@ -24,9 +23,9 @@
 
     .linkIcon{
       position: absolute;
-      width: 50px;
-      top: 20px;
-      right: 15px;
+      width: 40px;
+      top: 15px;
+      right: 10px;
     }
   }
   &:hover {

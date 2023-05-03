@@ -17,7 +17,7 @@ export const Footer = () => (
       </div>
     </div>
     <div className={`text-center py-2 ${style.copy}`}>
-      <span>© Copyright 2023. Created by <a href="./">Emely Mack</a></span>
+      <span>© Copyright 2023. Created by <a href="./" className='text-white'>Emely Mack</a></span>
     </div>
   </div>
 )

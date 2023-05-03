@@ -1,9 +1,9 @@
 :root{
-  --primary: #6e07f3;
-  --secondary: #004643;
-  --highlight: #d1ac00;
+  --primary: #2E005D ;
+  --secondary: #9966CC  ;
+  --highlight: #6e07f3;
   --shadow: #763D6D;
-  --font-color: #212529;
+  --font-color: #2E005D;
   --light: #faf4d3;
 }
 
@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(248,249,250) !important;
-  color: #333 !important;
+  color: var(--font-color) !important;
 }
 
 ::-webkit-scrollbar {
@@ -44,38 +44,61 @@ body {
   color: var(--highlight);
 }
 
+.title{
+  color: var(--primary);
+}
+
 .bg{
   &-light{
     background-color: var(--light) !important;
   }
 }
 
+a{
+  color: var(--highlight) !important;
+}
+a:hover{
+  color: var(--primary) !important;
+}
+
 .btn{
   border-radius: 12px !important;
   &-secondary{
-    border: 3px solid var(--secondary) !important;
+    border: 3px solid var(--highlight) !important;
     border-radius: 12px !important;
-    background-color: var(--secondary) !important;
-    color: #fff;
-    font-weight: 600 !important;
+    background-color: var(--highlight) !important;
+    font-weight: 500 !important;
     transition: all .15s ease-in-out;
+    color: #fff !important;
     &:hover{
       scale: 1.015;
+      background-color: var(--secondary) !important;
+      border-color: var(--secondary) !important;
+      color: var(--primary) !important;
+      font-weight: 600 !important;
+    }
+    &:active{
       background-color: var(--primary) !important;
       border-color: var(--primary) !important;
+      color: #fff !important;
     }
   }
   &-outline{
-    border: 3px solid var(--primary) !important;
-    color: var(--primary) !important;
+    border: 3px solid var(--highlight) !important;
+    color: var(--highlight) !important;
     background-color: transparent !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 
     &:hover{
       color: #fff !important;
+      background-color: var(--secondary) !important;
+      border-color: var(--secondary) !important;
+      font-weight: 600 !important;
+    }
+    &:active{
       background-color: var(--highlight) !important;
       border-color: var(--highlight) !important;
-      font-weight: 600 !important;
+      color: #fff !important;
     }
   }
 }
@@ -87,7 +110,7 @@ body {
   transform: scale(1.001)
 }
 
-a:hover{
+.nav-link:hover{
   color: var(--highlight) !important;
 }
 

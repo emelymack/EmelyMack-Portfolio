@@ -16,7 +16,7 @@ export const Banner = () => {
             <p className='mt-4 fst-italic text-center text-lg-start' style={{fontSize: '18px'}}>
               A passionate Front-End Web Developer focused on building beautiful, useful, and responsive websites that catch the eye and enhance user experiences.
             </p>
-            <a href="" className='btn btn-outline fw-bold px-4'>Contact me</a>
+            <a href="#contact" className='btn btn-secondary px-4'>Contact me</a>
           </div>
         </div>
       </div>

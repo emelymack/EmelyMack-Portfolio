@@ -18,69 +18,69 @@ import agileLogo from '../assets/img/agile.png'
 
 export const Skills = () => (
   <div className="container px-3 py-5 p-lg-5">
-    <div className="row row-cols-3 row-cols-lg-4 justify-content-center gx-0 gy-4">
+    <div className="row row-cols-3 row-cols-lg-4 justify-content-center gx-0 gy-4 p-lg-4">
       <div className={`col ${style.skillsCol}`}>
-        <img src={htmlLogo} alt="HTML" width={125} className='mb-2' />
+        <img src={htmlLogo} alt="HTML" width={100} className='mb-2' />
         HTML
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={cssLogo} alt="CSS" width={90} className='mb-2' />
+        <img src={cssLogo} alt="CSS" width={75} className='mb-2' />
         CSS
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={javascriptLogo} alt="JavaScript" height={110} className='mb-3' style={{borderRadius: '10px'}} />
+        <img src={javascriptLogo} alt="JavaScript" height={85} className='mb-3' style={{borderRadius: '10px'}} />
         JavaScript
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={typescriptLogo} alt="TypeScript" width={110} className='mb-3' />
+        <img src={typescriptLogo} alt="TypeScript" width={85} className='mb-3' />
         TypeScript
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={reactLogo} alt="React" width={110} className='mb-3' />
+        <img src={reactLogo} alt="React" width={85} className='mb-3' />
         React
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={reduxLogo} alt="Redux" width={150} className='mb-1' />
+        <img src={reduxLogo} alt="Redux" width={125} className='mb-1' />
         Redux
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={bootstrapLogo} alt="Bootstrap" width={120} className='mb-4' />
+        <img src={bootstrapLogo} alt="Bootstrap" width={95} className='mb-4' />
         Bootstrap
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={sassLogo} alt="Sass" width={130} className='mb-3' />
+        <img src={sassLogo} alt="Sass" width={105} className='mb-3' />
         Sass
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={gitLogo} alt="Git" width={110} className='mb-3' />
+        <img src={gitLogo} alt="Git" width={85} className='mb-3' />
         Git
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={mysqlLogo} alt="MySQL" width={150} className='mb-4' />
+        <img src={mysqlLogo} alt="MySQL" width={125} className='mb-4' />
         MySQL
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={nodejsLogo} alt="Node JS" width={130} className='mb-3' />
+        <img src={nodejsLogo} alt="Node JS" width={105} className='mb-3' />
         Node JS
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={postmanLogo} alt="Postman" width={100} className='mb-2' />
+        <img src={postmanLogo} alt="Postman" width={75} className='mb-2' />
         Postman
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={javaLogo} alt="Java" width={100} className='mb-2' />
+        <img src={javaLogo} alt="Java" width={75} className='mb-2' />
         Java
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={figmaLogo} alt="Figma" width={110} className='mb-3' />
+        <img src={figmaLogo} alt="Figma" width={85} className='mb-3' />
         Figma
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={adobexdLogo} alt="AdobeXD" width={100} className='mb-3' />
+        <img src={adobexdLogo} alt="AdobeXD" width={75} className='mb-3' />
         AdobeXD
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={agileLogo} alt="Agile Methodologies" width={100} className='mb-2' />
+        <img src={agileLogo} alt="Agile Methodologies" width={75} className='mb-2' />
         Agile Methodologies
       </div>
     </div>

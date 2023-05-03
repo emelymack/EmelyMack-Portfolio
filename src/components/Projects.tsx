@@ -8,9 +8,9 @@ import centroPokemon from '../assets/img/proyecto-centroPokemon.png'
 
 export const Projects = () => (
   <div id="projects" className="container pt-5" data-aos="fade-up">
-    <div className="text-center">
-      <h1 className="highlight fw-bold text-center mb-3">Projects</h1>
-      <span className="secondary" style={{fontSize: '18px'}}>Some of the work I've done</span>
+    <div className="text-center title">
+      <h1 className="fw-bold text-center mb-3">Projects</h1>
+      <span style={{fontSize: '18px'}}>Some of the work I've done</span>
     </div>
     <div className="row row-cols-1 row-cols-md-3 my-3 my-md-5 gy-4">
       <CardProject img={conecta} title="Conecta Live" description="Front End developed for Axyoma Global" webSrc="https://axyomadigital.com/proyectos/conecta" />

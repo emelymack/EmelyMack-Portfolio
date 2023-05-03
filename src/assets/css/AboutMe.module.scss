@@ -1,34 +1,42 @@
 .tab {
   height: 75px !important;
-  width: 300px;
+  width: 100%;
   border-radius: 40px 40px 0 0 !important;
   color: #fff !important;
   font-weight: 600 !important;
   font-size: 20px !important;
+  &.bg1{
+    &:hover{
+      color: var(--secondary) !important;
+    }
+  }
+  &.bg2{
+    &:hover{
+      color: var(--primary) !important;
+    }
+  }
+  &.bg3{
+    &:hover{
+      color: var(--highlight) !important;
+    }
+  }
 }
 
 .bg{
   &1{
-    // background: var(--highlight) !important;
-    background: var(--primary) !important;
+    background: var(--primary) !important
   }
   &2{
-    // background: #8F3EA2 !important;
-    background: var(--primary) !important;
+    background: var(--highlight) !important;
   }
   &3{
-    // background: var(--primary) !important;
-    background: var(--primary) !important
+    background: var(--secondary) !important;
   }
 }
 
 .tabContent{
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 25px 25px;
   color: #fff;
-  background: hsla(266, 94%, 49%, 1) !important;
-  background: linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 40%, rgb(218, 192, 255) 100%) !important;
-  background: -moz-linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 40%, rgb(218, 192, 255) 100%) !important;
-  background: -webkit-linear-gradient(-90deg, hsla(266, 94%, 49%, 1) 40%, rgb(218, 192, 255) 100%) !important;
 }
 
 .skillsCol {
