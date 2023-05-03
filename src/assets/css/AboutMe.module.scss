@@ -10,14 +10,9 @@
       color: var(--secondary) !important;
     }
   }
-  &.bg2{
+  &.bg2, &.bg3{
     &:hover{
       color: var(--primary) !important;
-    }
-  }
-  &.bg3{
-    &:hover{
-      color: var(--highlight) !important;
     }
   }
 }

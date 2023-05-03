@@ -1,6 +1,9 @@
 import style from '../assets/css/Contact.module.scss'
 import { useEffect, useState } from "react"
+import { useAppSelector } from '../hooks/hooks'
 export const ContactText = () => {
+  const lang: string = useAppSelector(state => state.language)
+
   const [ iconsHover, setIconsHover ] = useState<any>({
     iconGitHub: false,
     iconLinkedIn: false,
@@ -12,7 +15,7 @@ export const ContactText = () => {
 
   return (
     <>
-      <h2 className='title fw-semibold text-center text-md-start'>Let's work together!</h2>
+      <h2 className='title fw-semibold text-center text-md-start'>{(lang === 'eng') ? "Let's work together" : 'Trabajemos juntos'}!</h2>
       <div className="d-flex flex-column align-items-center align-items-md-start ms-lg-5">
         <div>
           <a href='https://www.github.com/emelymack' target='_blank' className={style.contactLinks} onMouseOver={ () => setIconsHover({...iconsHover, iconGitHub: true})} onMouseLeave={() => setIconsHover({...iconsHover, iconGitHub: false})}>

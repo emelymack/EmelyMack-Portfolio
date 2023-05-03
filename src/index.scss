@@ -101,6 +101,10 @@ a:hover{
       color: #fff !important;
     }
   }
+  &-none{
+    background-color: transparent !important;
+    border: none !important;
+  }
 }
 
 .nav-tabs .nav-link.active{
