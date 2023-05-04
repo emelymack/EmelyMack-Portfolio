@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec46d5a1.css",
-    "main.js": "/static/js/main.439850c6.js",
+    "main.css": "/static/css/main.7fa80e11.css",
+    "main.js": "/static/js/main.00c76229.js",
     "static/media/proyecto-AFamily.png": "/static/media/proyecto-AFamily.9ebc17b9a5f9919f31e6.png",
     "static/media/proyecto-aipsa.png": "/static/media/proyecto-aipsa.0f546b71277f3e995e66.png",
     "static/media/proyecto-wolco.png": "/static/media/proyecto-wolco.8cc5b6267579e40f1c0b.png",
@@ -35,15 +35,14 @@
     "static/media/postman.webp": "/static/media/postman.7066eb08ea17b7fe2069.webp",
     "static/media/github-white.svg": "/static/media/github-white.83088414a9dd3cdab02254bc485fe683.svg",
     "static/media/typescript.svg": "/static/media/typescript.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
-    "static/media/link-icon.svg": "/static/media/link-icon.bef4ecf85c3432a7ef8c77d8f9b50b93.svg",
     "index.html": "/index.html",
     "static/media/linkedin-white.svg": "/static/media/linkedin-white.48acb59cfcd4320f5a12e04c31ad725c.svg",
     "static/media/mail.svg": "/static/media/mail.c8fcc48ae348257493e0b5c5a564210a.svg",
-    "main.ec46d5a1.css.map": "/static/css/main.ec46d5a1.css.map",
-    "main.439850c6.js.map": "/static/js/main.439850c6.js.map"
+    "main.7fa80e11.css.map": "/static/css/main.7fa80e11.css.map",
+    "main.00c76229.js.map": "/static/js/main.00c76229.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec46d5a1.css",
-    "static/js/main.439850c6.js"
+    "static/css/main.7fa80e11.css",
+    "static/js/main.00c76229.js"
   ]
 }
