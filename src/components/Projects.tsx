@@ -41,14 +41,14 @@ export const Projects = () => {
       title: `${(language === 'eng') ? 'Rick & Morty Project' : 'Proyecto Rick y Morty'}`,
       description: `${(language === 'eng') ? 'Final project for the subject Front End IV. Built with React, TypeScript and Redux' : 'Proyecto final para la materia Front End IV. Desarrollado con React, TypeScript y Redux'}`,
       webSrc: 'https://rickmortyapp-project.netlify.app',
-      gitHubSrc: ''
+      gitHubSrc: 'https://github.com/emelymack/ctd-esp-fe1-final'
     },
     {
       img: centroPokemon,
       title: `${(language === 'eng') ? 'Pokemon Center Project' : 'Proyecto Centro Pokemon'}`,
       description: `${(language === 'eng') ? 'Project for the subject Front End IV. Built with React, TypeScript and Redux' : 'Proyecto para la materia Front End IV. Desarrollado con React, TypeScript y Redux'}`,
       webSrc: 'https://centropokemon-redux-typescript.netlify.app',
-      gitHubSrc: ''
+      gitHubSrc: 'https://github.com/emelymack/ejercicio-redux-1'
     }
   ]
   
@@ -62,7 +62,7 @@ export const Projects = () => {
       </div>
       <div className="row row-cols-1 row-cols-md-3 my-3 my-md-5 gy-4">
         {data.map(project => (
-          <CardProject key={project.title} img={project.img} title={project.title} description={project.description} webSrc={project.webSrc} />
+          <CardProject key={project.title} img={project.img} title={project.title} description={project.description} webSrc={project.webSrc} gitHubSrc={project.gitHubSrc} />
         ))}
       </div>
     </div>
