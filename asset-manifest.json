@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7fa80e11.css",
-    "main.js": "/static/js/main.00c76229.js",
+    "main.css": "/static/css/main.ea1ce92e.css",
+    "main.js": "/static/js/main.213d68ce.js",
     "static/media/proyecto-AFamily.png": "/static/media/proyecto-AFamily.9ebc17b9a5f9919f31e6.png",
     "static/media/proyecto-aipsa.png": "/static/media/proyecto-aipsa.0f546b71277f3e995e66.png",
     "static/media/proyecto-wolco.png": "/static/media/proyecto-wolco.8cc5b6267579e40f1c0b.png",
@@ -18,7 +18,6 @@
     "static/media/css.png": "/static/media/css.4e67641bb68b658d9b2b.png",
     "static/media/argentina-flag.png": "/static/media/argentina-flag.51b1d2e292a36051ef80.png",
     "static/media/nodejs.png": "/static/media/nodejs.c6649cb118c1ede849ad.png",
-    "static/media/logo.png": "/static/media/logo.62f782e4b8f1324e942a.png",
     "static/media/img-webdev.svg": "/static/media/img-webdev.2de4b0f2486dff73c1d4c1b315848b50.svg",
     "static/media/meditation.svg": "/static/media/meditation.4f0d102c437520be31512700a38ef44e.svg",
     "static/media/figma.png": "/static/media/figma.46400ab8543f71a3650b.png",
@@ -38,11 +37,11 @@
     "index.html": "/index.html",
     "static/media/linkedin-white.svg": "/static/media/linkedin-white.48acb59cfcd4320f5a12e04c31ad725c.svg",
     "static/media/mail.svg": "/static/media/mail.c8fcc48ae348257493e0b5c5a564210a.svg",
-    "main.7fa80e11.css.map": "/static/css/main.7fa80e11.css.map",
-    "main.00c76229.js.map": "/static/js/main.00c76229.js.map"
+    "main.ea1ce92e.css.map": "/static/css/main.ea1ce92e.css.map",
+    "main.213d68ce.js.map": "/static/js/main.213d68ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fa80e11.css",
-    "static/js/main.00c76229.js"
+    "static/css/main.ea1ce92e.css",
+    "static/js/main.213d68ce.js"
   ]
 }
