@@ -107,31 +107,33 @@
 }
 
 @media(max-width: 991px){
-  .tab{
-    width: 100% !important;
-    border-radius: 25px !important;
-    margin-bottom: 4px !important;
-  }
-  .tabContent{
-    border-radius: 20px;
-  }
-
-  .skillsCol{
-    font-size: 12px;
-    img{
-      width: 15vw;
-      height: auto;
+  .aboutMe{
+    .tab{
+      width: 100% !important;
+      border-radius: 25px !important;
+      margin-bottom: 4px !important;
     }
-  }
-
-  .hobbiesContainer{
-    .bgImg{
-      width: 30%;
-      &1{
-        top: 5px;
+    .tabContent{
+      border-radius: 20px;
+    }
+  
+    .skillsCol{
+      font-size: 12px;
+      img{
+        width: 15vw;
+        height: auto;
       }
-      &2{
-        display: none;
+    }
+  
+    .hobbiesContainer{
+      .bgImg{
+        width: 30%;
+        &1{
+          top: 5px;
+        }
+        &2{
+          display: none;
+        }
       }
     }
   }
