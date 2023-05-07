@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { languageSlice } from "./languageSlice";
+import { scrollingSlice } from "./scrollingSlice";
 
 const store = configureStore({
   reducer: {
-    language: languageSlice.reducer
+    language: languageSlice.reducer,
+    scrolling: scrollingSlice.reducer
   }
 })
 

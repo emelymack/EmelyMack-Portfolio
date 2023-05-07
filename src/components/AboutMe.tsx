@@ -13,8 +13,8 @@ export const AboutMe = () => {
   const title = (language === 'eng') ? 'About Me' : 'Sobre mí'
 
   return (
-    <div id='aboutMe' className="container py-5" data-aos="fade-up">
-      <h1 className="secondary fw-bold text-center mb-4 title">{title}</h1>
+    <div id='aboutMe' className={`${style.aboutMe} container py-5`} data-aos="fade-up">
+      <h1 className="secondary fw-bold text-center mb-5 title">{title}</h1>
       <AboutMeTxt />
       <div style={{width: '90%'}} className='mx-auto'>
         <Tabs

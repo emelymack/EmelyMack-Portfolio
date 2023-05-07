@@ -1,104 +1,107 @@
-.tab {
-  height: 75px !important;
-  width: 100%;
-  border-radius: 40px 40px 0 0 !important;
-  color: #fff !important;
-  font-weight: 600 !important;
-  font-size: 20px !important;
-  &.bg1{
-    &:hover{
-      color: var(--secondary) !important;
+
+.aboutMe{
+  .tab {
+    height: 75px !important;
+    width: 100%;
+    border-radius: 40px 40px 0 0 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    &.bg1{
+      &:hover{
+        color: var(--secondary) !important;
+      }
+    }
+    &.bg2, &.bg3{
+      &:hover{
+        color: var(--primary) !important;
+      }
     }
   }
-  &.bg2, &.bg3{
-    &:hover{
-      color: var(--primary) !important;
-    }
-  }
-}
-
-.bg{
-  &1{
-    background: var(--primary) !important
-  }
-  &2{
-    background: var(--highlight) !important;
-  }
-  &3{
-    background: var(--secondary) !important;
-  }
-}
-
-.tabContent{
-  border-radius: 0 0 25px 25px;
-  color: #fff;
-}
-
-.skillsCol {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: 700;
-  font-size: 18px;
-  img {
-    transition: transform .75s ease;
-  }
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px) scale(1.1);
-    }
-  }
-  img:hover {
-    animation: bounce .5s;
-  }
-}
-
-.strengths {
-  font-size: 18px;
-  li{
-    list-style-type: '✨';
-    padding-left: 10px;
-    line-height: 40px;
-  }
-}
-
-.hobbiesContainer{
-  position: relative;
-  .bgImg{
-    position: absolute;
-    width: 20%;
-    z-index: 1;
+  
+  .bg{
     &1{
-      transform: rotate(5deg);
-      top: 10px;
-      right: 5px;
+      background: var(--primary) !important
     }
     &2{
-      bottom: -10px;
-      left: 2px;
+      background: var(--highlight) !important;
     }
     &3{
-      bottom: 1px;
-      right: 5px;
+      background: var(--secondary) !important;
     }
   }
-
-  .videoResponsive{
-    overflow: hidden;
-    padding-bottom: 56.25%;
+  
+  .tabContent{
+    border-radius: 0 0 25px 25px;
+    color: #fff;
+  }
+  
+  .skillsCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    img {
+      transition: transform .75s ease;
+    }
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px) scale(1.1);
+      }
+    }
+    img:hover {
+      animation: bounce .5s;
+    }
+  }
+  
+  .strengths {
+    font-size: 18px;
+    li{
+      list-style-type: '✨';
+      padding-left: 10px;
+      line-height: 40px;
+    }
+  }
+  
+  .hobbiesContainer{
     position: relative;
-    height: 0;
-    iframe{
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
+    .bgImg{
       position: absolute;
+      width: 20%;
+      z-index: 1;
+      &1{
+        transform: rotate(5deg);
+        top: 10px;
+        right: 5px;
+      }
+      &2{
+        bottom: -10px;
+        left: 2px;
+      }
+      &3{
+        bottom: 1px;
+        right: 5px;
+      }
+    }
+  
+    .videoResponsive{
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+      iframe{
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
     }
   }
 }
