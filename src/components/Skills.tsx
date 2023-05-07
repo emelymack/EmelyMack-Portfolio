@@ -15,10 +15,11 @@ import reduxLogo from '../assets/img/redux.png'
 import figmaLogo from '../assets/img/figma.png'
 import adobexdLogo from '../assets/img/adobexd.png'
 import agileLogo from '../assets/img/agile.png'
+import awsLogo from '../assets/img/aws.png'
 
 export const Skills = () => (
   <div className="container px-3 py-5 p-lg-5">
-    <div className="row row-cols-3 row-cols-lg-4 justify-content-center gx-0 gy-4 p-lg-4">
+    <div className="row row-cols-3 row-cols-lg-6 justify-content-center gx-0 gy-4 p-lg-4">
       <div className={`col ${style.skillsCol}`}>
         <img src={htmlLogo} alt="HTML" width={100} className='mb-2' />
         HTML
@@ -79,9 +80,13 @@ export const Skills = () => (
         <img src={adobexdLogo} alt="AdobeXD" width={75} className='mb-3' />
         AdobeXD
       </div>
-      <div className={`col ${style.skillsCol}`}>
+      <div className={`col ${style.skillsCol} text-center`}>
         <img src={agileLogo} alt="Agile Methodologies" width={75} className='mb-2' />
         Agile Methodologies
+      </div>
+      <div className={`col ${style.skillsCol}`}>
+        <img src={awsLogo} alt="AWS" width={100} className='mb-2' />
+        AWS
       </div>
     </div>
   </div>
