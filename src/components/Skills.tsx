@@ -1,25 +1,28 @@
 import style from '../assets/css/AboutMe.module.scss'
-import htmlLogo from '../assets/img/html.png'
-import cssLogo from '../assets/img/css.png'
-import javascriptLogo from '../assets/img/javascript.png'
-import reactLogo from '../assets/img/react.png'
-import gitLogo from '../assets/img/git.png'
-import typescriptLogo from '../assets/img/typescript.svg'
-import bootstrapLogo from '../assets/img/bootstrap.png'
-import sassLogo from '../assets/img/sass.png'
-import mysqlLogo from '../assets/img/mysql.png'
-import nodejsLogo from '../assets/img/nodejs.png'
-import postmanLogo from '../assets/img/postman.webp'
-import javaLogo from '../assets/img/java.png'
-import reduxLogo from '../assets/img/redux.png'
-import figmaLogo from '../assets/img/figma.png'
-import adobexdLogo from '../assets/img/adobexd.png'
-import agileLogo from '../assets/img/agile.png'
-import awsLogo from '../assets/img/aws.png'
+import htmlLogo from '../assets/img/logos/html.png'
+import cssLogo from '../assets/img/logos/css.png'
+import javascriptLogo from '../assets/img/logos/javascript.png'
+import reactLogo from '../assets/img/logos/react.png'
+import gitLogo from '../assets/img/logos/git.png'
+import gitlabLogo from '../assets/img/logos/gitlab.png'
+import typescriptLogo from '../assets/img/logos/typescript.svg'
+import bootstrapLogo from '../assets/img/logos/bootstrap.png'
+import sassLogo from '../assets/img/logos/sass.png'
+import apiRestLogo from '../assets/img/logos/restApi.png'
+import mysqlLogo from '../assets/img/logos/mysql.png'
+import nodejsLogo from '../assets/img/logos/nodejs.png'
+import postmanLogo from '../assets/img/logos/postman.webp'
+import javaLogo from '../assets/img/logos/java.png'
+import reduxLogo from '../assets/img/logos/redux.png'
+import figmaLogo from '../assets/img/logos/figma.png'
+import adobexdLogo from '../assets/img/logos/adobexd.png'
+import agileLogo from '../assets/img/logos/agile.png'
+import awsLogo from '../assets/img/logos/aws.png'
+import wordpressLogo from '../assets/img/logos/wordpress.png'
 
 export const Skills = () => (
   <div className="container px-3 py-5 p-lg-5">
-    <div className="row row-cols-3 row-cols-lg-6 justify-content-center gx-0 gy-4 p-lg-4">
+    <div className="row row-cols-3 row-cols-lg-5 justify-content-center gx-0 gy-4 p-lg-4">
       <div className={`col ${style.skillsCol}`}>
         <img src={htmlLogo} alt="HTML" width={100} className='mb-2' />
         HTML
@@ -57,12 +60,20 @@ export const Skills = () => (
         Git
       </div>
       <div className={`col ${style.skillsCol}`}>
+        <img src={gitlabLogo} alt="GitLab" width={85} className='mb-3' />
+        GitLab
+      </div>
+      <div className={`col ${style.skillsCol}`}>
         <img src={mysqlLogo} alt="MySQL" width={125} className='mb-4' />
         MySQL
       </div>
       <div className={`col ${style.skillsCol}`}>
         <img src={nodejsLogo} alt="Node JS" width={105} className='mb-3' />
         Node JS
+      </div>
+      <div className={`col ${style.skillsCol}`}>
+        <img src={apiRestLogo} alt="RESTful API" width={105} className='mb-3' />
+        RESTful API
       </div>
       <div className={`col ${style.skillsCol}`}>
         <img src={postmanLogo} alt="Postman" width={75} className='mb-2' />
@@ -73,7 +84,7 @@ export const Skills = () => (
         Java
       </div>
       <div className={`col ${style.skillsCol}`}>
-        <img src={figmaLogo} alt="Figma" width={85} className='mb-3' />
+        <img src={figmaLogo} alt="Figma" width={85} className='mt-2 mb-4' />
         Figma
       </div>
       <div className={`col ${style.skillsCol}`}>
@@ -87,6 +98,10 @@ export const Skills = () => (
       <div className={`col ${style.skillsCol}`}>
         <img src={awsLogo} alt="AWS" width={100} className='mb-2' />
         AWS
+      </div>
+      <div className={`col ${style.skillsCol}`}>
+        <img src={wordpressLogo} alt="AWS" width={90} className='mb-3' />
+        WordPress
       </div>
     </div>
   </div>
