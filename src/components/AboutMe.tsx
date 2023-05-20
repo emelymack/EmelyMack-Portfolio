@@ -16,7 +16,7 @@ export const AboutMe = () => {
     <div id='aboutMe' className={`${style.aboutMe} container py-5`} data-aos="fade-up">
       <h1 className="secondary fw-bold text-center mb-5 title">{title}</h1>
       <AboutMeTxt />
-      <div style={{width: '90%'}} className='mx-auto'>
+      <div style={{width: '90%'}} className='mx-auto' data-aos="fade-up">
         <Tabs
           defaultActiveKey="skills"
           id="about-me-tabs"

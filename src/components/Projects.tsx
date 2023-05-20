@@ -28,7 +28,7 @@ export const Projects = () => {
       img: aipsa,
       title: 'Aipsa',
       description: `${(language === 'eng') ? 'Front End developed for Axyoma Global' : 'Front End desarrollado para Axyoma Global'}`,
-      webSrc: 'https://axyomadigital.com/proyectos/Aipsa/Aipsa-landing'
+      webSrc: 'https://www.aipsa.com.ar/comex/'
     },
     {
       img: wolco,

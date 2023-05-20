@@ -13,7 +13,7 @@ export const AboutMeTxt = () => {
           <p>In addition, I'm also working as a Front End Developer at a marketing agency and am currently looking to expand my knowledge and experience in the IT world. Check out some of my work in the <a href="./#projects" className='fw-bold'>Projects</a> section!</p>
         </div>
         <div className="col">
-          <p className='mb-1'>My passion for programming and design is reflectes in every project I undertake, where every line of code and every pixel serves a purpose. If you're looking for a website that speaks about you or your business and stands for its beauty, <span className='fw-bold highlight'>I am here to help you make it real</span>.</p>
+          <p className='mb-1'>My passion for programming and design is reflected in every project I undertake, where every line of code and every pixel serves a purpose. If you're looking for a website that speaks about you or your business and stands for its beauty, <span className='fw-bold highlight'>I am here to help you make it real</span>.</p>
           <p>I am open to new job opportunities where I can contribute, learn and grow. If you think I would be a good fit for an opportunity that matches my skills and experience, please don't hesitate to <a href="./#contact" className='fw-bold'>contact me</a>.</p>
         </div>
       </div>
