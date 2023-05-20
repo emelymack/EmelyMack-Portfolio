@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
-import style from '../assets/css/Footer.module.scss'
-import logo from '../assets/img/logo-white.png'
-import github from '../assets/img/github-white.svg'
-import mail from '../assets/img/mail.svg'
-import linkedin from '../assets/img/linkedin-white.svg'
-import { useAppSelector } from '../hooks/hooks'
+import style from '../../assets/css/Footer.module.scss'
+import logo from '../../assets/img/logo-white.png'
+import github from '../../assets/img/github-white.svg'
+import mail from '../../assets/img/mail.svg'
+import linkedin from '../../assets/img/linkedin-white.svg'
+import { useAppSelector } from '../../hooks/hooks'
 
 export const Footer = () => {
   const lang: string = useAppSelector(state => state.language)

@@ -1,9 +1,9 @@
 import Button from 'react-bootstrap/Button';
-import argentinaFlag from '../assets/img/argentina-flag.png';
-import usaFlag from '../assets/img/unitedStates-flag.png';
-import style from '../assets/css/Header.module.scss'
-import { useAppDispatch, useAppSelector } from '../hooks/hooks';
-import { setLanguage } from '../redux/languageSlice';
+import argentinaFlag from '../../assets/img/argentina-flag.png';
+import usaFlag from '../../assets/img/unitedStates-flag.png';
+import style from '../../assets/css/Header.module.scss'
+import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
+import { setLanguage } from '../../redux/languageSlice';
 
 export const LanguageBtn = () => {
   const dispatch = useAppDispatch()

@@ -1,4 +1,4 @@
-import { useAppSelector } from "../hooks/hooks"
+import { useAppSelector } from "../../hooks/hooks"
 
 export const AboutMeTxt = () => {
   const language: string = useAppSelector(state => state.language)

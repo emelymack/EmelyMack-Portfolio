@@ -1,4 +1,4 @@
-import { useAppSelector } from '../hooks/hooks'
+import { useAppSelector } from '../../hooks/hooks'
 import { ContactForm } from './ContactForm'
 import { ContactText } from './ContactText'
 

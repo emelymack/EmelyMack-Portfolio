@@ -1,10 +1,10 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import style from '../assets/css/AboutMe.module.scss'
+import style from '../../assets/css/AboutMe.module.scss'
 import { Skills } from './Skills';
 import { Strengths } from './Strengths';
 import { Hobbies } from './Hobbies';
-import { useAppSelector } from '../hooks/hooks';
+import { useAppSelector } from '../../hooks/hooks';
 import { AboutMeTxt } from './AboutMeTxt';
 
 export const AboutMe = () => {

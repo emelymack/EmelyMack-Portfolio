@@ -1,5 +1,5 @@
-import style from '../assets/css/AboutMe.module.scss'
-import { useAppSelector } from '../hooks/hooks'
+import style from '../../assets/css/AboutMe.module.scss'
+import { useAppSelector } from '../../hooks/hooks'
 
 export const Strengths = () => {
   const lang: string = useAppSelector(state => state.language)

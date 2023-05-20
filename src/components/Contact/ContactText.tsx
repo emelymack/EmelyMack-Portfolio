@@ -1,6 +1,6 @@
-import style from '../assets/css/Contact.module.scss'
+import style from '../../assets/css/Contact.module.scss'
 import { useEffect, useState } from "react"
-import { useAppSelector } from '../hooks/hooks'
+import { useAppSelector } from '../../hooks/hooks'
 export const ContactText = () => {
   const lang: string = useAppSelector(state => state.language)
 

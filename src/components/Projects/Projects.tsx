@@ -1,11 +1,11 @@
 import { CardProject } from "./CardProject";
-import conecta from '../assets/img/proyecto-conecta.png'
-import AFamily from '../assets/img/proyecto-AFamily.png'
-import aipsa from '../assets/img/proyecto-aipsa.png'
-import wolco from '../assets/img/proyecto-wolco.png'
-import rickYMorty from '../assets/img/proyecto-rickYMorty.png'
-import centroPokemon from '../assets/img/proyecto-centroPokemon.png'
-import { useAppSelector } from "../hooks/hooks";
+import conecta from '../../assets/img/proyecto-conecta.png'
+import AFamily from '../../assets/img/proyecto-AFamily.png'
+import aipsa from '../../assets/img/proyecto-aipsa.png'
+import wolco from '../../assets/img/proyecto-wolco.png'
+import rickYMorty from '../../assets/img/proyecto-rickYMorty.png'
+import centroPokemon from '../../assets/img/proyecto-centroPokemon.png'
+import { useAppSelector } from "../../hooks/hooks";
 
 
 export const Projects = () => {

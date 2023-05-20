@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import style from '../assets/css/Projects.module.scss'
+import style from '../../assets/css/Projects.module.scss'
 
 interface Props {
   img: string,

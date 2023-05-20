@@ -1,9 +1,9 @@
-import style from '../assets/css/AboutMe.module.scss'
-import meditation from '../assets/img/meditation.svg'
-import cat from '../assets/img/cat-friends.svg'
-import music from '../assets/img/music.svg'
+import style from '../../assets/css/AboutMe.module.scss'
+import meditation from '../../assets/img/meditation.svg'
+import cat from '../../assets/img/cat-friends.svg'
+import music from '../../assets/img/music.svg'
 import { YoutubeEmbed } from './YoutubeEmbed'
-import { useAppSelector } from '../hooks/hooks'
+import { useAppSelector } from '../../hooks/hooks'
 
 export const Hobbies = () => {
   const lang: string = useAppSelector(state => state.language)

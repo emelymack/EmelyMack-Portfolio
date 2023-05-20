@@ -2,14 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // @ts-ignore
-import cv from '../assets/files/MackEmely-FrontEndDeveloper.pdf';
+import cv from '../../assets/files/MackEmely-FrontEndDeveloper.pdf';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload, faEllipsis } from '@fortawesome/free-solid-svg-icons'
-import style from '../assets/css/Header.module.scss'
+import style from '../../assets/css/Header.module.scss'
 import { LanguageBtn } from './LanguageBtn';
-import { useAppSelector } from '../hooks/hooks';
-import { scrollState } from '../redux/scrollingSlice';
+import { useAppSelector } from '../../hooks/hooks';
+import { scrollState } from '../../redux/scrollingSlice';
 import { SizeProp } from '@fortawesome/fontawesome-svg-core';
 
 export const Header = () => {

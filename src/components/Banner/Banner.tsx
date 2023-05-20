@@ -1,7 +1,7 @@
-import devIcon from '../assets/img/developer.svg'
-import devImg from '../assets/img/img-webdev.svg'
-import style from '../assets/css/Banner.module.scss'
-import { useAppSelector } from '../hooks/hooks'
+import devIcon from '../../assets/img/developer.svg'
+import devImg from '../../assets/img/img-webdev.svg'
+import style from '../../assets/css/Banner.module.scss'
+import { useAppSelector } from '../../hooks/hooks'
 
 export const Banner = () => {
   const language: string = useAppSelector(state => state.language)

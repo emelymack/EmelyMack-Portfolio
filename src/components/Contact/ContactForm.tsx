@@ -1,11 +1,11 @@
-import style from '../assets/css/Contact.module.scss'
+import style from '../../assets/css/Contact.module.scss'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-import { useAppSelector } from '../hooks/hooks';
+import { useAppSelector } from '../../hooks/hooks';
 
 const MySwal = withReactContent(Swal)
 

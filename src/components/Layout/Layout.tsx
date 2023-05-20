@@ -1,4 +1,4 @@
-import { ChildrenProps } from "../types/types"
+import { ChildrenProps } from "../../types/types"
 import { Footer } from "./Footer"
 import { Header } from "./Header"
 

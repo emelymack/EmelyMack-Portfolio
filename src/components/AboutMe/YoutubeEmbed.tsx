@@ -1,4 +1,4 @@
-import style from '../assets/css/AboutMe.module.scss'
+import style from '../../assets/css/AboutMe.module.scss'
 
 interface Props {
   embedId: string,

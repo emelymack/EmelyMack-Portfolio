@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.scss';
-import { Layout } from './components/Layout';
-import { Content } from './components/Content';
+import { Layout } from './components/Layout/Layout';
+import { Content } from './components/Layout/Content';
 import "aos/dist/aos.css";
 
 import { setScrolling } from './redux/scrollingSlice';
