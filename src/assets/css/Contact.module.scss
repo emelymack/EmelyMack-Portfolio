@@ -16,10 +16,9 @@
 
 }
 
-
-
 .formContainer{
-  height: 500px;
+  min-height: 500px;
+  max-height: fit-content;
   padding: 2rem 3.5rem;
   border-radius: 30px;
   box-shadow: 5px 15px 25px 15px rgba(46, 0, 93, 0.25);
