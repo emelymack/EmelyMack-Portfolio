@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.26238aa5.css",
-    "main.js": "/static/js/main.aef556e4.js",
+    "main.js": "/static/js/main.8a9d158b.js",
     "static/media/proyecto-AFamily.png": "/static/media/proyecto-AFamily.9ebc17b9a5f9919f31e6.png",
     "static/media/proyecto-aipsa.png": "/static/media/proyecto-aipsa.0f546b71277f3e995e66.png",
     "static/media/proyecto-wolco.png": "/static/media/proyecto-wolco.8cc5b6267579e40f1c0b.png",
-    "static/media/MackEmely-FrontEndDeveloper.pdf": "/static/media/MackEmely-FrontEndDeveloper.12b3eb21be02e824ce94.pdf",
     "static/media/wordpress.png": "/static/media/wordpress.709a24d0d9031a20e5bc.png",
     "static/media/proyecto-rickYMorty.png": "/static/media/proyecto-rickYMorty.6205cb13841f44f4f510.png",
     "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
@@ -13,6 +12,7 @@
     "static/media/proyecto-centroPokemon.png": "/static/media/proyecto-centroPokemon.80dcfd8a8ba4f874a551.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.430491e6a02f91bf55d6.png",
     "static/media/adobexd.png": "/static/media/adobexd.a76712985929dc7040e3.png",
+    "static/media/MackEmely-FullStackDeveloper.pdf": "/static/media/MackEmely-FullStackDeveloper.eba87e9d823d57d26739.pdf",
     "static/media/sass.png": "/static/media/sass.7cdbf6b5889c42b3e490.png",
     "static/media/html.png": "/static/media/html.c4d9c8dcdf4078875355.png",
     "static/media/mysql.png": "/static/media/mysql.0fa268260d693783ed38.png",
@@ -40,10 +40,10 @@
     "static/media/linkedin-white.svg": "/static/media/linkedin-white.48acb59cfcd4320f5a12e04c31ad725c.svg",
     "static/media/mail.svg": "/static/media/mail.c8fcc48ae348257493e0b5c5a564210a.svg",
     "main.26238aa5.css.map": "/static/css/main.26238aa5.css.map",
-    "main.aef556e4.js.map": "/static/js/main.aef556e4.js.map"
+    "main.8a9d158b.js.map": "/static/js/main.8a9d158b.js.map"
   },
   "entrypoints": [
     "static/css/main.26238aa5.css",
-    "static/js/main.aef556e4.js"
+    "static/js/main.8a9d158b.js"
   ]
 }
