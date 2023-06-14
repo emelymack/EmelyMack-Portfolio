@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // @ts-ignore
-import cv from '../../assets/files/MackEmely-FrontEndDeveloper.pdf';
+import cv from '../../assets/files/MackEmely-FullStackDeveloper.pdf';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload, faEllipsis } from '@fortawesome/free-solid-svg-icons'
@@ -30,7 +30,7 @@ export const Header = () => {
             <Nav.Link className={style.navLink} href="#aboutMe">{(lang === 'eng') ? 'About me' : 'Sobre mí'}</Nav.Link>
             <Nav.Link className={style.navLink} href="#projects">{(lang === 'eng') ? 'Projects' : 'Proyectos'}</Nav.Link>
             <Nav.Link className={style.navLink} href="#contact">{(lang === 'eng') ? 'Contact' : 'Contacto'}</Nav.Link>
-            <a className={style.navLink} href={cv} download="MackEmely-FrontEndDeveloper.pdf"><Button variant="outline-secondary" className={`${scroll.btnHeaderClass} btn-header px-3`}>
+            <a className={style.navLink} href={cv} download="MackEmely-FullStackDeveloper.pdf"><Button variant="outline-secondary" className={`${scroll.btnHeaderClass} btn-header px-3`}>
               <FontAwesomeIcon icon={faDownload} className='me-1' /> {(lang === 'eng') ? 'Download CV' : 'Descargar CV'}</Button>
             </a>
             <LanguageBtn />
