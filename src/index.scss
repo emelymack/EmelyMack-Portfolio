@@ -94,6 +94,7 @@ a:hover{
     font-weight: 500 !important;
     transition: all .15s ease-in-out;
     color: #fff !important;
+    box-shadow: 5px 8px 8px hsla(278, 100%, 40%, 0.25);
     &:hover{
       scale: 1.015;
       background-color: var(--secondary) !important;
@@ -131,6 +132,11 @@ a:hover{
       color: #fff !important;
     }
   }
+  &.disabled {
+    border-color: #6c757d !important;
+    background-color: #6c757d !important;
+    box-shadow: 4px 10px 10px hsla(0, 0%, 0%, 0.161);
+  }
   &-none{
     background-color: transparent !important;
     border: none !important;
@@ -155,7 +161,7 @@ a:hover{
 
   .sticky{
     .logo{
-      width: 60% !important;
+      width: 45% !important;
     }
   }
 }

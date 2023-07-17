@@ -1,7 +1,8 @@
 import devIcon from '../../assets/img/developer.svg'
-import devImg from '../../assets/img/img-webdev.svg'
 import style from '../../assets/css/Banner.module.scss'
 import { useAppSelector } from '../../hooks/hooks'
+import Lottie from 'lottie-react';
+import animation from '../../assets/lotties/banner-lottie.json'
 
 export const Banner = () => {
   const language: string = useAppSelector(state => state.language)
@@ -13,10 +14,11 @@ export const Banner = () => {
 
   return (
     <div className={style.banner}>
-      <div className='container d-flex align-items-center justify-content-start py-5 px-4 px-lg-0 animate__animated animate__flipInX'>
+      <div className='container d-flex align-items-center justify-content-start py-4 px-4 px-lg-0 animate__animated animate__flipInX'>
         <div className="row row-cols-1 row-cols-lg-2">
           <div className="col d-flex justify-content-center">
-            <img src={devImg} alt="" className={style.bannerImg} />
+            <Lottie animationData={animation} loop={true} style={{width: '100%'}} />
+            {/* <img src={devImg} alt="" className={style.bannerImg} /> */}
           </div>
           <div className="col d-flex flex-column justify-content-center align-items-center align-items-lg-start mt-5 mt-lg-0 px-lg-5">
             <h1 className={`me-3 ${style.title} display-5 text-center text-lg-start`}>{greeting}!<br className='d-none d-lg-block'/> {name}</h1>
