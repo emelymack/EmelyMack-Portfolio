@@ -10,7 +10,7 @@ export const Banner = () => {
   const greeting = (language === 'eng') ? 'Hi' : 'Hola'
   const name = (language === 'eng') ? "I'm Emely Mack" : 'Me llamo Emely Mack'
   const btnTxt = (language === 'eng') ? "Contact me" : 'Contactame'
-  const subtitle = (language === 'eng') ? "A passionate Front-End Web Developer focused on building beautiful, useful, and responsive websites that catch the eye and enhance user experiences" : 'Soy una Desarrolladora Web Front-End apasionada y enfocada en construir sitios web hermosos, funcionales y responsive que atrapen tu mirada y mejoren tu user experience'
+  const subtitle = (language === 'eng') ? "A passionate Frontend Web Developer focused on building beautiful, useful, and responsive websites that catch the eye and enhance user experiences" : 'Soy una Desarrolladora Web Frontend apasionada y enfocada en construir sitios web hermosos, funcionales y responsive que atrapen tu mirada y mejoren tu user experience'
 
   return (
     <div className={style.banner}>
@@ -20,7 +20,7 @@ export const Banner = () => {
             <Lottie animationData={animation} loop={true} style={{width: '100%'}} />
             {/* <img src={devImg} alt="" className={style.bannerImg} /> */}
           </div>
-          <div className="col d-flex flex-column justify-content-center align-items-center align-items-lg-start mt-5 mt-lg-0 px-lg-5">
+          <div className="col d-flex flex-column justify-content-center align-items-center align-items-lg-start pe-lg-5">
             <h1 className={`me-3 ${style.title} display-5 text-center text-lg-start`}>{greeting}!<br className='d-none d-lg-block'/> {name}</h1>
             <img src={devIcon} alt={'Imagen de programadora'} width={50} />
             <p className='mt-4 fst-italic text-center text-lg-start' style={{fontSize: '18px'}}>
