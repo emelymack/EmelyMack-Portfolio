@@ -11,13 +11,17 @@ export const Projects = () => {
   const title = (language === 'eng') ? 'Projects' : 'Proyectos'
   const subtitle =(language === 'eng') ? "Some of the work I've done" : 'Algunos de los proyectos en los que trabajé'
   const [ endIndex, setEndIndex ] = useState(window.innerWidth >= 992 ? 6 : 3)
-  const [ shownData, setShownData ] = useState<Project[]>([])
   const [ projectsData, setProjectsData ] = useState(data(language))
+  const [ shownData, setShownData ] = useState<Project[]>(projectsData)
 
   useEffect(() => {
     const slicedData = projectsData.slice(0, endIndex)
     setShownData(slicedData)
   }, [endIndex, projectsData])
+
+  useEffect(() => {
+    setProjectsData(data(language))
+  }, [language])
 
 
   const filterProjects = (e: any, projectFilter: ProjectFilters) => {

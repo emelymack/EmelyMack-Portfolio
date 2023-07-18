@@ -10,7 +10,10 @@ import centroPokemon from '../../assets/img/proyecto-centroPokemon.png'
 import pruebaTecnica from '../../assets/img/proyecto-pruebaTecnica.png'
 import { Project, projectCategory } from '../../types/types'
 
-export const data = (language : string): Project[] => ([
+export const data = (language : string): Project[] => {
+  console.log(language);
+  
+  return([
   {
     img: aipsaInstitucional,
     title: `${(language === 'eng') ? 'Aipsa - Institutional web' : 'Aipsa - web institucional'}`,
@@ -83,4 +86,4 @@ export const data = (language : string): Project[] => ([
     gitHubSrc: 'https://github.com/emelymack/prueba-tecnica-React-TS-ReactQuery',
     category: projectCategory.Personal
   }
-] )
+] )}
