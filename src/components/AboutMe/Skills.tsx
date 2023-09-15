@@ -6,6 +6,10 @@ import reactLogo from '../../assets/img/logos/react.png'
 import gitLogo from '../../assets/img/logos/git.png'
 import gitlabLogo from '../../assets/img/logos/gitlab.png'
 import typescriptLogo from '../../assets/img/logos/typescript.svg'
+import nextjsLogo from '../../assets/img/logos/nextjs.svg'
+import vercelLogo from '../../assets/img/logos/vercel.svg'
+import materialUILogo from '../../assets/img/logos/materialUI.png'
+import jiraLogo from '../../assets/img/logos/jira.png'
 import bootstrapLogo from '../../assets/img/logos/bootstrap.png'
 import sassLogo from '../../assets/img/logos/sass.png'
 import apiRestLogo from '../../assets/img/logos/restApi.png'
@@ -44,12 +48,20 @@ export const Skills = () => (
         React
       </div>
       <div className={`col ${style.skillsCol}`}>
+        <img src={nextjsLogo} alt="NextJS" width={85} className='mb-3' />
+        NextJS
+      </div>
+      <div className={`col ${style.skillsCol}`}>
         <img src={reduxLogo} alt="Redux" width={125} className='mb-1' />
         Redux
       </div>
       <div className={`col ${style.skillsCol}`}>
         <img src={bootstrapLogo} alt="Bootstrap" width={95} className='mb-4' />
         Bootstrap
+      </div>
+      <div className={`col ${style.skillsCol}`}>
+        <img src={materialUILogo} alt="MaterialUI" width={95} className='mb-4' />
+        MaterialUI
       </div>
       <div className={`col ${style.skillsCol}`}>
         <img src={sassLogo} alt="Sass" width={105} className='mb-3' />
@@ -62,6 +74,10 @@ export const Skills = () => (
       <div className={`col ${style.skillsCol}`}>
         <img src={gitlabLogo} alt="GitLab" width={85} className='mb-3' />
         GitLab
+      </div>
+      <div className={`col ${style.skillsCol}`}>
+        <img src={vercelLogo} alt="Vercel" width={85} className='mb-3' />
+        Vercel
       </div>
       <div className={`col ${style.skillsCol}`}>
         <img src={mysqlLogo} alt="MySQL" width={125} className='mb-4' />
@@ -94,6 +110,10 @@ export const Skills = () => (
       <div className={`col ${style.skillsCol} text-center`}>
         <img src={agileLogo} alt="Agile Methodologies" width={75} className='mb-2' />
         Agile Methodologies
+      </div>
+      <div className={`col ${style.skillsCol} text-center`}>
+        <img src={jiraLogo} alt="Jira" width={140} className='mb-3' />
+        Jira
       </div>
       <div className={`col ${style.skillsCol}`}>
         <img src={awsLogo} alt="AWS" width={100} className='mb-2' />
