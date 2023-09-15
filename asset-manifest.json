@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.0fb55c8f.css",
-    "main.js": "/static/js/main.99216a44.js",
+    "main.js": "/static/js/main.2ef3079b.js",
     "static/media/proyecto-aipsa.png": "/static/media/proyecto-aipsa.0f546b71277f3e995e66.png",
     "static/media/proyecto-wolco.png": "/static/media/proyecto-wolco.8cc5b6267579e40f1c0b.png",
     "static/media/proyecto-terra.png": "/static/media/proyecto-terra.12c98c99ef9cd0f8d241.png",
     "static/media/proyecto-aipsa-institucional.png": "/static/media/proyecto-aipsa-institucional.d9eeb25f32224bebb4a4.png",
+    "static/media/MackEmely-FullStackDeveloper.pdf": "/static/media/MackEmely-FullStackDeveloper.f52b73a5bdc8704cc3cb.pdf",
     "static/media/proyecto-elVencedor.png": "/static/media/proyecto-elVencedor.9e004a8cc3dad69185bb.png",
     "static/media/wordpress.png": "/static/media/wordpress.709a24d0d9031a20e5bc.png",
     "static/media/proyecto-rickYMorty.png": "/static/media/proyecto-rickYMorty.6205cb13841f44f4f510.png",
     "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/proyecto-conecta.png": "/static/media/proyecto-conecta.876f8293f3488b14f2f3.png",
     "static/media/proyecto-pruebaTecnica.png": "/static/media/proyecto-pruebaTecnica.4a2b36596d63ebb84bc8.png",
+    "static/media/jira.png": "/static/media/jira.b045cc93be9c2708f9ee.png",
     "static/media/proyecto-centroPokemon.png": "/static/media/proyecto-centroPokemon.80dcfd8a8ba4f874a551.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.430491e6a02f91bf55d6.png",
     "static/media/adobexd.png": "/static/media/adobexd.a76712985929dc7040e3.png",
-    "static/media/MackEmely-FullStackDeveloper.pdf": "/static/media/MackEmely-FullStackDeveloper.eba87e9d823d57d26739.pdf",
     "static/media/sass.png": "/static/media/sass.7cdbf6b5889c42b3e490.png",
     "static/media/html.png": "/static/media/html.c4d9c8dcdf4078875355.png",
     "static/media/mysql.png": "/static/media/mysql.0fa268260d693783ed38.png",
@@ -36,16 +37,18 @@
     "static/media/music.svg": "/static/media/music.19aaa11cf201c466029bddd96b1efa77.svg",
     "static/media/bg-banner.svg": "/static/media/bg-banner.9878fdbb0d963009b072.svg",
     "static/media/postman.webp": "/static/media/postman.7066eb08ea17b7fe2069.webp",
+    "static/media/nextjs.svg": "/static/media/nextjs.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "static/media/github-white.svg": "/static/media/github-white.83088414a9dd3cdab02254bc485fe683.svg",
     "static/media/typescript.svg": "/static/media/typescript.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
     "index.html": "/index.html",
+    "static/media/vercel.svg": "/static/media/vercel.4cd3bf99e3e5d1918a883d4b17f84ba8.svg",
     "static/media/linkedin-white.svg": "/static/media/linkedin-white.48acb59cfcd4320f5a12e04c31ad725c.svg",
     "static/media/mail.svg": "/static/media/mail.c8fcc48ae348257493e0b5c5a564210a.svg",
     "main.0fb55c8f.css.map": "/static/css/main.0fb55c8f.css.map",
-    "main.99216a44.js.map": "/static/js/main.99216a44.js.map"
+    "main.2ef3079b.js.map": "/static/js/main.2ef3079b.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb55c8f.css",
-    "static/js/main.99216a44.js"
+    "static/js/main.2ef3079b.js"
   ]
 }
